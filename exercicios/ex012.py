@@ -2,4 +2,4 @@
 valor = float(input('valor do produto: '))
 desconto = float(0.05)
 novoValor = valor - (valor*desconto)
-print('valor do produto: R${}, \n desconto de: {}, \n novo valor: R${}'.format(valor, desconto, novoValor))
+print('valor do produto: R${}, \n desconto de 5%, \n novo valor: R${}'.format(valor, novoValor))
