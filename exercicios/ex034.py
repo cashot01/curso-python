@@ -2,10 +2,8 @@
 
 sal = int(input('seu salario: '))
 if sal <= 1250:
-    aumento = (sal *(0.15)) 
-    newSal = aumento + sal
-    print('novo salario: {:.2f}'.format(newSal))
+    aumento = (sal *(0.15)) + sal
+    print('novo salario: R${:.2f}'.format(aumento))
 else:
-    aumento = (sal *(0.10))
-    newSal = aumento + sal
-    print(newSal)    
+    aumento = (sal *(0.10)) + sal
+    print('novo salario: R${:.2f}'.format(aumento))    
