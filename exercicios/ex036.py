@@ -3,9 +3,9 @@ casa = float(input('valor da casa: '))
 salario = float(input('salario: '))
 sal_030 = salario * 0.30 
 anos = float(input('anos a pagar:  '))
-prestacao = (casa / anos )
+prestacao = casa / (anos * 12 )
 print('valor da prestação: {:.2f}'.format(prestacao))
 if prestacao <= sal_030:
-    print('(R${:.2f}) <=  {:.2f} , emprestimo ACEITO '.format(prestacao, sal_030))
+    print('(R${:.2f} <=  {:.2f} , emprestimo ACEITO '.format(prestacao, sal_030))
 elif prestacao > sal_030:
     print('R${:.2f} > R${:.2f} , emprestimo NEGADO'.format(prestacao, sal_030))    
