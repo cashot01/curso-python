@@ -9,7 +9,8 @@ print('idade: {} anos'.format(idade))
 if idade == 18:
     print('alistamento nesse ano, fique esperto')
 elif idade < 18:
-    print('seu alistamento acontece em: {} anos'.format(menos18))
+    faltAnos = menos18 + anoAtual
+    print('seu alistamento acontece em: {} anos, no ano de {}'.format(menos18, faltAnos))
 elif idade > 18:
     print('alistamento feito há {} anos atras'.format(mais18))    
 
