@@ -1,6 +1,7 @@
 # pedra papel tesousa
 import random
 print(''' JOKENPÔ
+      Digite um dos numeros para jogar
       [1] pedra
       [2] papel
       [3] tesoura ''')
@@ -20,4 +21,6 @@ elif myJogada == 2 and maquina == 1:
     print('PARABENS ganhou, papel > pedra')  
 elif myJogada == 3 and maquina == 2:
     print('PARABENS vc ganou, tesoura > papel')      
+if myJogada > 3:
+    print('digite 1, 2, ou 3 para jogar jokempô')    
 
