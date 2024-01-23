@@ -4,10 +4,8 @@ print('Pa com 10 Termos')
 print('='*20)
 primeiroTermo = int(input('primeiro termo: '))
 razao = int(input('razão: '))
-n = int(input('quantos nº vai exibir: '))
+decimo = primeiroTermo + (10 - 1)*razao # calculo do decimo termo da pa
 
-ultimo = primeiroTermo + (n-1)*razao
-ultimo += 1
 
-for c in range(primeiroTermo, ultimo, razao):
+for c in range(primeiroTermo, decimo, razao):
     print(c)
