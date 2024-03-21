@@ -1,4 +1,6 @@
 # pedra papel tesousa
+import os
+os.system("cls")
 import random
 print(''' JOKENPÔ
       Digite um dos numeros para jogar
